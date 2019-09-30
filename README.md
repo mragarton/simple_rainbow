@@ -14,3 +14,5 @@ This bot was coded by a founding member of the the Karbon Dev. Team.
 
 # Footnote
 Distributed under the MIT license. See `LICENSE` for more information.
+
+![in action](https://i.imgur.com/t93SgLZ.gif)
