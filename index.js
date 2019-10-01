@@ -12,6 +12,6 @@ const colorize = async role => {
   setInterval(async _ => {
     if (colors.length === 0) await update();
     const color = colors.pop();
-    role.setColor(color.values.rgb).catch(_ => { });
+    role.setColor(data["type"] === 'BW' ? color : color.values.rgb).catch(_ => { });
   }, data["changeRate"] * 1000);
 };
