@@ -1,4 +1,4 @@
-let Discord = require('discord.js'), fs = require('fs'), Rainbow = require('color-rainbow'), client = new Discord.Client(), data = JSON.parse(fs.readFileSync('./cfg.json')), colors = [], update = async _ => colors = Rainbow.create(data["rainbowArraySize"]);
+let Discord = require('discord.js'), fs = require('fs'), Rainbow = require('color-rainbow'), client = new Discord.Client(), data = JSON.parse(fs.readFileSync('./cfg.json')), colors = [], update = async _ => colors = data["type"] === 'BW' ? [0x000001, 0xFFFFFF] : Rainbow.create(data["rainbowArraySize"]);
 client.login(data["token"]).then(_ => {
   console.log(`${client.user.tag}: Logged in!`);
   const guild = client.guilds.find(g => g.name.toLowerCase() === data["guildName"].toLowerCase());
