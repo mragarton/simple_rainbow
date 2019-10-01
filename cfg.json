@@ -3,5 +3,7 @@
     "guildName": "",
     "roleName": "",
     "changeRate": 5,
-    "rainbowArraySize": 50
+    "rainbowArraySize": 50,
+    "_comment": "type: rainbow or BW (Black and White)",
+    "type": "rainbow"
 }
