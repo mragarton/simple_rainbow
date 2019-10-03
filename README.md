@@ -8,7 +8,7 @@
 > Now you can select your desired color outcome configured in the `cfg.json` file.
 Edit `"type"`: with the keywords `"rainbow"` and `"BW"` to get different types of color changing.
 # Node.js Dependencies:
-- `fs`
+- `fs` (already included)
 - `discord.js`
 - `color-rainbow`
 # Author
