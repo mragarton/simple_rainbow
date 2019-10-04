@@ -1,3 +1,4 @@
+[![Support Server](https://i.imgur.com/3CDbHx5.png)](https://discord.gg/C83h4Sk)
 # Simple Rainbow `(Discord Role color changing script)`
 > A bot made to change Discord Role colors hereby making the member names stand out from the crowd.
 
